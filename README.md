@@ -40,18 +40,31 @@ Clique para jogar online: https://lucas-kiozy.github.io/Pong/
 ## 📁 Estrutura do Projeto
 
 Pong/
+
 ├── index.html
+
 ├── sketch.js
+
 ├── style.css
+
 ├── /Sprites/
+
 │ ├── fundo1.png
+
 │ ├── fundo2.png
+
 │ ├── barra01.png
+
 │ ├── barra02.png
+
 │ └── bola.png
+
 ├── /Sounds/
+
 │ ├── bounce.wav
+
 │ └── finish.wav
+
 └── README.md
 
 ---
@@ -62,22 +75,19 @@ Pong/
    ```bash
    git clone https://github.com/lucas-kiozy/Pong.git
    cd Pong
+   
 2. Baixe as bibliotecas p5.js e p5.sound.js
 (ou use o CDN — já incluso no exemplo do index.html)
 
-3. Abra o arquivo index.html em seu navegador
+3. Abra o arquivo index.html no navegador
+(Clique duas vezes nele ou use a opção "Open with Live Server" se usa o VS Code)
 
-  Clique duas vezes no arquivo index.html
-  OU
-  Rode um servidor local (recomendado para som funcionar corretamente):
+Ou rode um servidor local (recomendado para áudio funcionar corretamente):
 
-bash
-Copiar
-Editar
-# Com Python 3.x
+Com Python 3.x:
 python -m http.server 8000
-# Depois acesse: http://localhost:8000/
-Ou use extensões como "Live Server" no VS Code.
+Depois acesse no navegador: http://localhost:8000/
+
 
 4. Jogue!
 
@@ -85,6 +95,7 @@ Ou use extensões como "Live Server" no VS Code.
   Escolha a dificuldade e divirta-se!
 
 📦 Dependências
+
 p5.js
 
 p5.sound.js
