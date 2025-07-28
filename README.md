@@ -1,4 +1,5 @@
 Arquivo criado para desenvolvimento do curso da Alura (https://cursos.alura.com.br/course/chatgpt-javascript-construa-jogo-pong)
+
 Jogo desenvolvido com ajuda do ChatGPT 4.1.
 
 # Pong Game 🎮
@@ -70,10 +71,12 @@ Pong/
   OU
   Rode um servidor local (recomendado para som funcionar corretamente):
 
+bash
+Copiar
+Editar
 # Com Python 3.x
 python -m http.server 8000
 # Depois acesse: http://localhost:8000/
-
 Ou use extensões como "Live Server" no VS Code.
 
 4. Jogue!
