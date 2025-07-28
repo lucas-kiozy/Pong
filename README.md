@@ -82,7 +82,7 @@ Depois acesse no navegador: http://localhost:8000/
   Use o mouse para controlar sua raquete.
   Escolha a dificuldade e divirta-se!
 
-##📦 Dependências
+## 📦 Dependências
 
 p5.js
 
@@ -90,13 +90,13 @@ p5.sound.js
 
 Ambos já referenciados via CDN no index.html. Não precisa instalar nada via NPM.
 
-##💡 Personalização
+## 💡 Personalização
 Para trocar sprites ou sons, substitua os arquivos na pasta /Sprites ou /Sounds.
 
 Para editar o placar final para vitória, altere a constante PONTUACAO_FINAL no início do arquivo sketch.js.
 
 Se quiser mudar as dificuldades, altere o array DIFICULDADES.
 
-##📝 Créditos e Licença
+## 📝 Créditos e Licença
 Desenvolvido por Lucas Silva — projeto para estudo e portfólio.
 Sinta-se livre para sugerir melhorias ou abrir PRs!
