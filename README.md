@@ -25,7 +25,7 @@ Clique para jogar online: https://lucas-kiozy.github.io/Pong/
 
 ---
 
-## 🎨 Features
+## 🎨 Características
 
 - **Jogo clássico Pong**: single player contra computador
 - **Menu inicial** e seleção de dificuldade (Fácil, Normal, Difícil)
@@ -39,34 +39,22 @@ Clique para jogar online: https://lucas-kiozy.github.io/Pong/
 
 ## 📁 Estrutura do Projeto
 
+```text
 Pong/
-
 ├── index.html
-
 ├── sketch.js
-
 ├── style.css
-
 ├── /Sprites/
-
 │ ├── fundo1.png
-
 │ ├── fundo2.png
-
 │ ├── barra01.png
-
 │ ├── barra02.png
-
 │ └── bola.png
-
 ├── /Sounds/
-
 │ ├── bounce.wav
-
 │ └── finish.
-
 └── README.md
-
+```
 ---
 
 ## ⚡ Como rodar o projeto localmente
@@ -84,8 +72,9 @@ Pong/
 Ou rode um servidor local (recomendado para áudio funcionar corretamente):
 
 Com Python 3.x:
-
+```text
 python -m http.server 8000
+```
 
 Depois acesse no navegador: http://localhost:8000/
 
